@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 1000px;
+    display: flex;
+}
+.left {
+    width: 200px;
+    height: 700px;
+}
+.logo {
+    width: 100%;
+    height: 50px;
+    background: #aaa;
+}
+.nav {
+    width: 100%;
+    height: 600px;
+    background: #ddd;
+}
+.right {
+    width: 800px;
+}
+.slide {
+    width: 100%;
+    height: 350px;
+    background: #bbb;
+}
+.section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.notice,
+.short {
+    width: 270px;
+    height: 100%;
+    background: #ccc;
+}
+.banner {
+    width: 260px;
+    height: 100%;
+    background: #eee;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo2 {
+    width: 200px;
+    height: 100%;
+    background: #666;
+}
+.footer2 {
+    width: 800px;
+    height: 100%;
+}
+.menu2,
+.copyright {
+    width: 100%;
+    height: 50%;
+    background: #999;
+}
+.copyright {
+    background: #888;
+}
