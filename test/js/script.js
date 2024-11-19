@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $(".main").hover(function(){
+        $(".sub").slideDown();
+    },function(){
+        $(".sub").slideUp();
+    })
+
     var i = 4;
 
     setInterval(function(){
