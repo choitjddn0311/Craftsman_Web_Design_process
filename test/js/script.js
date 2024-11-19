@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
     $(".main").hover(function(){
-        $(".sub").slideDown();
+        $(".sub").stop().slideDown();
     },function(){
-        $(".sub").slideUp();
+        $(".sub").stop().slideUp();
     })
 
     var i = 4;
