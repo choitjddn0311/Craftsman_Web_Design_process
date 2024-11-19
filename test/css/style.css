@@ -54,7 +54,7 @@ li {
     cursor: pointer;
 }
 .sub {
-
+    display: none;
 }
 .sub > li {
     background: #fff;
